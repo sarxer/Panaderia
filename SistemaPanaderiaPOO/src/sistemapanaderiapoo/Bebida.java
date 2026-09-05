@@ -79,9 +79,5 @@ public class Bebida extends ProductoPanaderia {
         this.tieneAzucar = tieneAzucar;
     }
 
-    // Método toString
-    @Override
-    public String toString() {
-        return "Bebida{" + "nombre='" + getNombre() + '\'' + ", codigo=" + getCodigo() + ", precio=" + getPrecio() + ", disponible=" + isDisponible() + ", tipo='" + tipo + '\'' + ", mililitros=" + mililitros + ", temperatura=" + temperatura + ", tieneAzucar=" + tieneAzucar + '}';
-    }
+   
 }

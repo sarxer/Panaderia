@@ -79,9 +79,5 @@ public class Pan extends ProductoPanaderia {
         this.integral = integral;
     }
 
-    // Método toString
-    @Override
-    public String toString() {
-        return "Pan{" + "nombre='" + getNombre() + '\'' + ", codigo=" + getCodigo() + ", precio=" + getPrecio() + ", disponible=" + isDisponible() + ", tipoHarina='" + tipoHarina + '\'' + ", pesoGramos=" + pesoGramos + ", costoProduccion=" + costoProduccion + ", integral=" + integral + '}';
-    }
+   
 }
