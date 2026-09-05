@@ -1,6 +1,4 @@
-
 package sistemapanaderiapoo;
-
 
 public class ProductoPanaderia {
 
@@ -71,14 +69,6 @@ public class ProductoPanaderia {
     // Método toString
     @Override
     public String toString() {
-        return "ProductoPanaderia{" +
-                "nombre='" + nombre + '\'' +
-                ", codigo=" + codigo +
-                ", precio=" + precio +
-                ", disponible=" + disponible +
-                '}';
+        return "ProductoPanaderia {" + "nombre='" + nombre + '\'' + ", codigo=" + codigo + ", precio=" + precio + ", disponible=" + disponible + '}';
     }
 }
-
-    
-
