@@ -79,5 +79,9 @@ public class Pastel extends ProductoPanaderia {
         this.tieneRelleno = tieneRelleno;
     }
 
-   
+    // Método toString
+    @Override
+    public String toString() {
+        return "Pastel{"+ "nombre='" + getNombre() + '\'' + ", codigo=" + getCodigo()+ ", precio=" + getPrecio() + ", disponible=" + isDisponible() + ", sabor='" + sabor + '\''+ ", porciones=" + porciones + ", pesoKg=" + pesoKg + ", tieneRelleno=" + tieneRelleno + '}';
+    }
 }

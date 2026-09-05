@@ -66,5 +66,9 @@ public class ProductoPanaderia {
         this.disponible = disponible;
     }
 
-   
+    // Método toString
+    @Override
+    public String toString() {
+        return "ProductoPanaderia {" + "nombre='" + nombre + '\'' + ", codigo=" + codigo + ", precio=" + precio + ", disponible=" + disponible + '}';
+    }
 }
